@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"  content="艦隊これくしょんの個人的な活動記録・備忘録。" />
+    <meta name="keywords"  content="艦隊これくしょん,艦これ" />
+
+    <title>艦種別役割</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="/kc/assets/css/styles.css">
+    <link rel="stylesheet" href="/kc/assets/css/github-markdown.css">
+    <link rel="shortcut icon" href="/kc/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/kc/assets/images/favicon.ico">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150338532-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150338532-1');
+    </script>
+  </head>
+  <body class="markdown-body">
+    <nav class="navbar has-background-info" role="navigation" aria-label="main navigation" style="position: fixed; width: 100%;">
+    <div class="navbar-brand">
+        <span class="navbar-item has-background-black has-text-white">K2</span>
+        <a role="button" class="navbar-burger burger navbar-burger-custom" aria-label="menu" aria-expanded="false" data-target="navbarBasic" href="#" onclick="onClickBurger(this)">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+        <div class="navbar-start">
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/">Home</a>
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/level.html">Level</a>
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/deck.html">Deck</a>
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/memo.html">Memo</a>
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/policy.html">Policy</a>
+            
+            <a class="navbar-item navbar-item-custom" href="/kc/about.html">About</a>
+            
+        </div>
+    </div>
+</nav>
+
+<script language="javascript" type="text/javascript">
+    function onClickBurger(burger) {
+
+        let dataTarget = burger.getAttribute("data-target");
+        target = document.getElementById(dataTarget);
+        
+        let activeTagName = "is-active";
+        let isActive = burger.classList.contains(activeTagName);
+        
+        if (isActive)
+        {
+            burger.classList.remove(activeTagName);
+            if (target.classList.contains(activeTagName))
+                target.classList.remove(activeTagName);
+        }
+        else
+        {
+            burger.classList.add(activeTagName);
+            if (!target.classList.contains(activeTagName))
+                target.classList.add(activeTagName);
+        }
+    }
+</script>
+    <div style="padding:3.25rem 0 0 0;">
+      <div style="width: 80vw; margin: auto; padding: 1rem 0;">
+        <h1>艦種別役割</h1>
+<p style="text-align: right;">17 Oct 2019</p>
+
+<h2 id="海防艦">海防艦</h2>
+
+<p>基本装備：対潜。養殖艦を1-5で育成するときに随伴。</p>
+
+<h2 id="駆逐艦">駆逐艦</h2>
+
+<h3 id="出撃担当">出撃担当</h3>
+
+<p>基本装備は主砲・主砲・電探。3-3・4-4・5-2に任務消化のために出撃。EOは1-6・3-5・6-5。2-5は水上反撃任務のみ出撃。</p>
+
+<h3 id="遠征担当キラあり">遠征担当（キラあり）</h3>
+
+<p>基本装備はドラム缶・ドラム缶・ドラム缶。キラ付けして遠征。</p>
+
+<h3 id="遠征担当キラなし">遠征担当（キラなし）</h3>
+
+<p>基本装備なし。睦月型と神風型は1-1での単艦キラ付けが難しいので遠征のキラなし枠。</p>
+
+<h3 id="遠征担当大発">遠征担当（大発）</h3>
+
+<p>基本装備は大発・大発・ドラム缶。2隻で遠征成果+20%。</p>
+
+<h2 id="軽巡洋艦">軽巡洋艦</h2>
+
+<p>基本装備は主砲・主砲・偵察機。キラ付けして遠征。EOは1-6に出撃。2-5は水上反撃のみ出撃。</p>
+
+<h2 id="重雷装巡洋艦">重雷装巡洋艦</h2>
+
+<p>基本装備は主砲・主砲・甲標的。南西任務を水上部隊で終わらせるときに出撃。EOは6-5。</p>
+
+<h2 id="練習巡洋艦">練習巡洋艦</h2>
+
+<p>基本装備は対潜。演習の空き枠に参加して経験値を増やす。</p>
+
+<h2 id="重巡洋艦">重巡洋艦</h2>
+
+<p>基本装備は主砲・主砲・偵察機・電探。2-1・2-2・3-3・4-4・5-2に任務消化のために出撃。EOは2-5・4-5・6-5。4-5は主砲・主砲・三式弾・缶・タービンで高速+に。水上反撃任務で2-5に出撃するときはザラかポーラが主砲・主砲・水戦・偵察機。</p>
+
+<h2 id="航空巡洋艦">航空巡洋艦</h2>
+
+<p>基本装備は3通り。</p>
+
+<ul>
+  <li>主砲・主砲・瑞雲・ドラム缶（2-5）</li>
+  <li>主砲・主砲・水戦・偵察機（5-5）</li>
+  <li>噴進砲・機銃・機銃・機銃（5-2-C）</li>
+</ul>
+
+<h2 id="戦艦">戦艦</h2>
+
+<p>基本装備は主砲・主砲・偵察機・電探。電探より徹甲弾が良いが数が足りない。4-4・5-2に任務消化のために出撃。EOは2-5・4-5・5-5・6-5。4-5は主砲・主砲・三式弾・缶・タービンで高速+に。</p>
+
+<h2 id="航空戦艦">航空戦艦</h2>
+
+<p>基本装備は主砲・主砲・水戦・偵察機。5-1任務・5-5・6-5に出撃。</p>
+
+<h2 id="正規空母装甲空母">正規空母・装甲空母</h2>
+
+<p>基本装備は艦攻・艦爆・艦戦・艦戦。3-3・4-4に任務消化のために出撃。EOは4-5・5-5・6-5。4-5は艦攻・艦爆・艦戦・缶・タービンで高速+に。</p>
+
+<h2 id="軽空母">軽空母</h2>
+
+<p>基本装備は艦攻・艦爆・艦爆・艦戦。2-1・2-2・3-3に任務消化のために出撃。EOは4-5に艦攻・艦爆・艦戦・缶・タービンで高速+にして出撃。</p>
+
+<h2 id="水上機母艦">水上機母艦</h2>
+
+<h3 id="出撃担当-1">出撃担当</h3>
+
+<p>基本装備は瑞雲・瑞雲・甲標的。主に瑞穂。3-5に出撃。</p>
+
+<h3 id="遠征担当キラ">遠征担当（キラ）</h3>
+
+<p>基本装備は瑞雲・瑞雲・甲標的or瑞雲。千歳・千代田・秋津洲。バケツが沢山欲しいときにキラをつけて遠征。</p>
+
+<h3 id="遠征担当大発-1">遠征担当（大発）</h3>
+
+<p>基本装備は特大発3＋大発。日進かコマンダンテステ。遠征成果+20%+α。</p>
+
+<h2 id="揚陸艦">揚陸艦</h2>
+
+<p>あきつ丸。演習で経験値を稼ぎながらイベント出撃待ち。</p>
+
+<h2 id="補給艦">補給艦</h2>
+
+<p>速吸・神威。演習で経験値を稼ぎながらイベント出撃待ち。</p>
+
+<h2 id="工作艦">工作艦</h2>
+
+<p>明石。待機時に第一艦隊旗艦。</p>
+
+<h2 id="潜水母艦">潜水母艦</h2>
+
+<p>大鯨。演習で経験値を稼ぎながらイベント出撃待ち。</p>
+
+<h2 id="潜水艦潜水空母">潜水艦・潜水空母</h2>
+
+<p>基本装備は魚雷・魚雷。2-1・2-2に任務消化のために出撃。</p>
+
+      </div>
+    </div>
+  </body>
+</html>

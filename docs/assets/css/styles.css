@@ -1,0 +1,24 @@
+a.navbar-item-custom { color: white; }
+
+@media only screen and (max-width: 1024px) { a.navbar-item-custom { color: #363636; } }
+
+@media only screen and (max-width: 1024px) { a.navbar-item-custom { color: #363636; }
+  .navbar-burger-custom { background-color: whitesmoke; } }
+
+.index-custom, .deck { width: 40%; }
+
+@media only screen and (max-width: 1024px) { .index-custom, .deck { width: auto; } }
+
+.youtube { width: 100%; padding-bottom: 60%; height: 0; position: relative; }
+
+.youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.twitter { width: 25vw; height: 85vh; overflow-y: scroll; position: fixed; top: 5rem; left: 50vw; }
+
+.twitter-deck { width: 40vw; height: 85vh; overflow-y: scroll; position: fixed; top: 5rem; left: 50vw; }
+
+@media only screen and (max-width: 1024px) { .twitter, .twitter-deck { width: auto; overflow-y: visible; position: relative; top: 0; left: 0; } }
+
+.spread-sheet { width: 90vw; height: 90vh; }
+
+/*# sourceMappingURL=styles.css.map */
